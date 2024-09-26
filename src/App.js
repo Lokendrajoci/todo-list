@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
+import EagleImg from "./imgs/5.jpg";
+import Img2 from "./imgs/bgimg.jpg";
+import DisplayScreen from "./components/DisplayScreen";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <DisplayScreen imagess={EagleImg} images3={Img2} />
+    </>
   );
 }
 
